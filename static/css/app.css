@@ -1,37 +1,63 @@
 body, html {
-    height: 100%;
-    width: 100%;
+    height: 600px;
+    width: 1200px;
 }
 
 body {
-    background: black url(http://republicbuzz.com/wp-content/uploads/2016/06/20160611/459990_1434569550603.cached.jpg) no-repeat fixed center center;
+    background: black url(http://republicbuzz.com/wp-content/uploads/2016/06/20160611/459990_1434569550603.cached.jpg) no-repeat center center;
+    margin: auto;
+    padding: 0; 
 }
 
 .panel {
     margin-top: 80px;
     text-align: center;
-    background-color: rgba(242, 242, 242, 0.9);
+    background-color: none;
     padding: 15px 0px 70px 0px;
-}
+} 
 
-.panel h1 {
+/*.panel h1 {
     font-size: 3rem;
 }
 
 .panel p {
     font-size: 1.3rem;
     padding: 20px 0px;
+}*/
+
+.round-button {
+    width:35%;
 }
 
-button {
-    background-color: #FF9900;
-    color: #EEEEEE;
-    font-size: 1.5rem;
-    font-weight: 500;
+.round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #FFA500; 
+    box-shadow: 0 0 10px gray;
 }
-
-button:hover {
-    background-color: #D77E22;
+.round-button-circle:hover {
+    background:#FF8C00;
+}
+.round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    
+    text-align:center;
+    color:#000080;
+    font-family:Verdana;
+    font-size:2.2em;
+    font-weight:bold;
+    text-decoration:none;
 }
 
 .launch-button {
