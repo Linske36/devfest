@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from src import scrape as s
 import json
 import requests
 import urllib
@@ -9,6 +10,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+
+   s.get_orders()
    return render_template("hello.html")
 
 
