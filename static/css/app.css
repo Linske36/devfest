@@ -3,10 +3,14 @@ body, html {
     width: 1200px;
 }
 
-body {
+body.hello {
     background: black url(http://republicbuzz.com/wp-content/uploads/2016/06/20160611/459990_1434569550603.cached.jpg) no-repeat center center;
     margin: auto;
     padding: 0; 
+}
+
+body.home {
+  background-color: #87CEFA;
 }
 
 .leftcol {
