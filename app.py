@@ -20,7 +20,7 @@ def account_create():
     print("enters ac")
     customerId = "5895232b1756fc834d9046d5"
     apiKey = "089b208ea502bf77203c62728b0fab72"
-
+#"6e48088d53bcf91c2a2aee659e458d82"
     url = 'http://api.reimaginebanking.com/customers/{}/accounts?key={}'.format(customerId,apiKey)
     payload = {
       "type": "Savings",
