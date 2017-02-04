@@ -11,9 +11,14 @@ app = Flask(__name__)
 def hello():
    return render_template("hello.html")
 
+
 @app.route("/search")
 def search():
     return render_template("search.html")
+
+@app.route("/home")
+def home():
+    return render_template("home.html")
 
 @app.route("/account")
 def account_create():
